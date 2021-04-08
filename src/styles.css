@@ -1,0 +1,23 @@
+.btn {
+  border: none;
+  background-color: darkgrey;
+  color: white;
+  padding: 7px 12px;
+  border-radius: 10px;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, .4);
+  transition: all 0.2s;
+  /* display: inline-block; */
+  margin-top: 15px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(1.02);
+}
+
+.btn:focus {
+  outline: none;
+}
